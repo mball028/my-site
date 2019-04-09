@@ -1,0 +1,138 @@
+<!-- CSS RULES
+1. Content is Everything
+2. Order set by code.
+3. Children sit on parents
+
+POSITION:
+-Static (default): go along with the html rules and keep default html flow
+
+-Relative: position element relative to how it wouldve been positioned while
+static.
+
+  ex: img{
+  position: relative
+  left: 30px
+  }
+      relative positioning does not affect the position of any other element.
+
+-Absolute: we are positioning the element relative to its parent.
+          adding a margin to its parent element. Absolute positioning
+          will affect the flow of your html.
+example:
+div{
+  position: Relative
+}
+img{
+  position: Absolute
+  right: 30px;
+}
+
+-Fixed: Keeps element in place on screen when scrolling.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Michael Ball</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Merriweather|Trocchi|Vesper+Libre"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- div is used to divide and structure the content of your site
+      content division element: divide content into seperate containers -->
+  <div class="TopContainer">
+
+    <h1>Im Michael.</h1>
+    <!-- span allows you to "highlight" a section of code to apply css
+        Span is known as an inline display element (only takes up as much space
+        as it needs to).
+        You cannot change the width of span elements*
+
+        Inline elements examples; span, img, a(anchor) -->
+    <h2 class="programmer">a <span class="pro">pro</span>grammer.</h2>
+    <img class="bottom-cloud clouds" src="images/cloud.png" alt="cloud-img" name="bottom-cloud">
+    <img class="top-cloud clouds" src="images/cloud.png" alt="cloud-img" name="top-cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profilepic" src="images/picMichael.gif" alt="Profile Pic">
+      <h2>Hello.</h2>
+      <p>My name is Michael. I am a student studying full-stack web development at Helio Training with the
+        aspirations
+        of launching a career in the industry. I enjoy the challenge that comes with the development and design
+        of websites.
+        I love to learn and I am an avid reader!</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="codeimage" src="images/code.png" alt="code">
+        <h3>Programming</h3>
+        <p>Once I was exposed to the world of programming I became fascinated by it! I took a few tech
+          courses in college, but I decided to fully immerse myself in a coding bootcamp to accelerate my path
+          into the industry. I am
+          learning how to develop full-stack applications using technologies like Git, React and different
+          frameworks through the curriculum as outlined by Helio. I have
+          much to learn and explore but I look forward to what lies ahead and embrace the challenge!
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="bookimage" src="images/book.png" alt="book">
+        <h3>Reading</h3>
+        <p>Books provide us with an incalcuable amount of information and that is why I love to read.
+          Reading allows me to attempt the fulfillment of my insatiable curiosity and it is this insatiability
+          that keeps me going. There is so much to learn in life and through learning we can expose ourselves to
+          many great things. A couple of my favorite books are <i>"The Stranger"</i> by Albert Camus
+          and Plato's <i>"Republic"</i>.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Send me your reading list.</h3>
+      <p>To ask me questions about my web development skills or to suggest a good read,
+        use the link below.</p>
+      <button class="butn" type="button" name="button" onclick="location.href='mailto:mball.28@outlook.com'">Contact
+        Me</button>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+
+    <div class="links">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://www.quora.com/profile/Michael-Ball-71">Quora</a>
+      <a class="footer-link" href="https://mball028.github.io/cv">Website</a>
+    </div>
+
+    <p class="copyright">© 2018 Michael Ball.</p>
+
+    <div class="icon-div">
+      <p class="icons">
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> and
+        <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a>
+        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+          href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0
+          BY</a>
+      </p>
+    </div>
+
+  </div>
+
+
+
+
+
+</body>
+
+</html>

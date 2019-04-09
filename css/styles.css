@@ -1,0 +1,196 @@
+
+/**************ELEMENTS*******************************************/
+/*
+
+16px = 100% = 1em
+
+*/
+a{
+  color: #11999E;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  color: white;
+}
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  color: #264e70;
+  margin: 50px auto 0 auto;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 5.625rem;
+  transition: 2s;
+  cursor: default;
+}
+h2{
+  color: #264e70;
+  font-family: 'Vesper Libre', serif;
+  font-size: 2.5rem;
+}
+h3{
+  color: #11999E;
+  font-family: 'Trocchi', serif;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #78b0a0;
+  border-width: thick;
+  width: 5%;
+}
+
+
+/*****************CLASSES***************************************/
+
+.bookimage{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.bottom-container {
+  background-color: #264e70;
+  position: relative;
+  margin: auto;
+  padding: 30px;
+
+}
+.butn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #91a2ad);
+  background-image: -moz-linear-gradient(top, #3498db, #91a2ad);
+  background-image: -ms-linear-gradient(top, #3498db, #91a2ad);
+  background-image: -o-linear-gradient(top, #3498db, #91a2ad);
+  background-image: linear-gradient(to bottom, #3498db, #91a2ad);
+  text-shadow: 2px 1px 7px #000000;
+  font-family: Arial;
+  color: #bdc4c9;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #264e70;
+  background-image: -webkit-linear-gradient(top, #264e70, #99c4e8);
+  background-image: -moz-linear-gradient(top, #264e70, #99c4e8);
+  background-image: -ms-linear-gradient(top, #264e70, #99c4e8);
+  background-image: -o-linear-gradient(top, #264e70, #99c4e8);
+  background-image: linear-gradient(to bottom, #264e70, #99c4e8);
+  text-decoration: none;
+}
+.codeimage {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me{
+
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  width: 50%;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0 20px 0;
+}
+
+.icons{
+  color: white;
+  margin: auto;
+  font-size: 0.5rem;
+}
+
+.icon-div{
+  margin-top: 25px;
+}
+
+.MiddleContainer {
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: center;
+  width: 50%;
+  }
+
+  .links{
+    word-spacing: 60px;
+  }
+
+.pro {
+  text-decoration: underline;
+  transition: 3s;
+}
+.programmer{
+  font-weight: normal;
+}
+.profile{
+margin: 100px auto 100px auto;
+text-align: center;
+width: 50%;
+}
+.profilepic{
+  width: 35%;
+  border-radius: 100%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+
+
+
+.TopContainer {
+  background-color: #5893d4;
+  position: relative;
+  padding-top: 100px;
+
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 30px;
+  transition: 7s;  
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  transition: 7s;  
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);  
+  
+
+}
+.mountain{
+  position: relative;
+}
+.TopContainer:hover > .bottom-cloud{
+  left: 45px;
+  
+}
+.TopContainer:hover > .top-cloud{
+  right: 45px;
+  
+
+}
+
+  
+
+ 
+  
+
+ 
