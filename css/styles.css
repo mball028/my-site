@@ -154,7 +154,7 @@ width: 50%;
 
 
 .TopContainer {
-  background-color: #5893d4;
+  background: linear-gradient(to bottom right, lightblue, rgb(110, 110, 235));
   position: relative;
   padding-top: 100px;
 
@@ -184,13 +184,9 @@ width: 50%;
 }
 .TopContainer:hover > .top-cloud{
   right: 45px;
-  
-
 }
 
   
-
- 
-  
+/*---------------------------------- PROJECTS SECTION ------------------------------ */
 
  

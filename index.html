@@ -37,6 +37,7 @@ img{
 <head>
   <meta charset="utf-8">
   <title>Michael Ball</title>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Merriweather|Trocchi|Vesper+Libre"
@@ -62,16 +63,24 @@ img{
     <img class="mountain" src="images/mountain.png" alt="mountain-img">
   </div>
   <div class="middle-container">
+      <nav class="pa3 pa4-ns">
+          <a class="link dim gray    f6 f5-ns dib mr3" href="#hello" title="Home">About</a>
+          <a class="link dim gray    f6 f5-ns dib mr3" href="#skills" title="About">Skills</a>
+          <a class="link dim gray    f6 f5-ns dib mr3" href="#projects" title="Store">Projects</a>
+          <a class="link dim gray    f6 f5-ns dib" href="#contact" title="Contact">Contact</a>
+        </nav>
     <div class="profile">
+      <a  name="hello"></a>
       <img class="profilepic" src="images/picMichael.gif" alt="Profile Pic">
       <h2>Hello.</h2>
       <p>My name is Michael. I am a student studying full-stack web development at Helio Training with the
         aspirations
-        of launching a career in the industry. I thoroughly enjoy the challenge of structuring and designing websites. 
+        of launching a career in the industry. I thoroughly enjoy the challenge of structuring and designing websites.
         I love to learn and I am an avid reader!</p>
     </div>
     <hr>
     <div class="skills">
+      <a name="skills"></a>
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="codeimage" src="images/code.png" alt="code">
@@ -87,20 +96,50 @@ img{
         <img class="bookimage" src="images/book.png" alt="book">
         <h3>Reading</h3>
         <p>Books provide us with an incalcuable amount of information and that is why I love to read.
-          Reading allows me to constantly expose myself to new material and challenge my existing worldview. There is so much to learn in life and through reading we can explore varying ideas and perspectives. A couple of my favorite books are <i>"The Stranger"</i> by Albert Camus
+          Reading allows me to constantly expose myself to new material and challenge my existing worldview. There is so
+          much to learn in life and through reading we can explore varying ideas and perspectives. A couple of my
+          favorite books are <i>"The Stranger"</i> by Albert Camus
           and Plato's <i>"Republic"</i>.</p>
       </div>
     </div>
+
+    <hr>
+
+    <div class="flex flex-column">
+      <a name="projects"></a>
+      <h2>Projects.</h2>
+      <section class="flex flex-row flex-column-m pa3">
+        <div class="ba b--dark-blue pa1 grow br3">
+          <a href="https://my-facial-recognition-app.herokuapp.com/"><img src="/images/react-app.png"
+              alt="react-app" class="br3 h-100 w-100"></a>
+        </div>
+        <div class="flex flex-column tl pa3">
+          <a href="https://my-facial-recognition-app.herokuapp.com/"><h3 class="underline">Facial Recognition App</h3></a> 
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum egestas nisl, et sagittis nunc
+            molestie a. Mauris ac malesuada quam. Proin a dui molestie, faucibus enim sed, rutrum erat. Sed quis felis
+            vel purus imperdiet pharetra. Aliquam sollicitudin sodales fermentum. Vestibulum et lectus lectus. Vivamus
+            scelerisque leo et rhoncus blandit. Fusce hendrerit faucibus convallis. Curabitur non purus et dolor mollis
+            volutpat ut sagittis erat. Curabitur vel tellus a justo consequat tristique eget ac nibh. Mauris iaculis
+            nisi odio, vitae blandit nisl tristique eu. Donec pellentesque ultrices tellus.
+          </p>
+        </div>
+      </section>
+    </div>
+
     <hr>
 
     <div class="contact-me">
+      <a name="contact"></a>
       <h2>Get In Touch</h2>
       <h3>Send me your reading list.</h3>
       <p>To ask me questions about my web development skills or to suggest a good read,
         use the link below.</p>
-      <button class="butn" type="button" name="button" onclick="location.href='mailto:mball.28@outlook.com'">Contact
+      <button class="butn" type="button" name="button" onclick="location.href='mailto:ball.michael028@gmail.com'">Contact
         Me</button>
     </div>
+
+
   </div>
 
 
