@@ -213,6 +213,7 @@ width: 50%;
   text-align: start;
 }
 .grid-container img{
+  margin: auto;
   width: 500px;
 }
 
