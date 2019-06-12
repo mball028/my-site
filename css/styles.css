@@ -210,9 +210,10 @@ width: 50%;
   width: 50%;
   margin: auto;
   display: grid;
-
   text-align: start;
 }
-
+.grid-container img{
+  width: 500px;
+}
 
  
