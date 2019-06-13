@@ -212,9 +212,10 @@ width: 50%;
   display: grid;
   text-align: start;
 }
+
 .grid-container img{
   margin: auto;
-  width: 500px;
+  width: 375px;
 }
 
  
